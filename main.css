@@ -1,0 +1,47 @@
+body, html {
+  height: 100%;
+}
+
+
+.hero-image {
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://lh3.googleusercontent.com/drive-storage/AKHj6E7E7XWb3BMX-zwQ5_S1BW0byqoJZKJyePX2UUAVHcCysrD93HbxIQoxnL3T9WKq1ucfK8wTE5w30WwTTG4kQBUUIefeYoDzMV85MAgUDQ=w2491-h1313");
+
+
+height: 50%;
+
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.hero-text {
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
+
+#border {
+  border: solid 1px;
+  background-color: lightgrey;
+  margin-top: 50px;
+}
+
+img {
+  width: 200px;
+  height: 150px
+}
+
+#column{
+  display: flex;
+  margin-top: 20px
+}
+
+#footer{
+  display: flex;
+  justify-content: center;
+}
